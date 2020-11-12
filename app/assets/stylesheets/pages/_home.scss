@@ -4,11 +4,6 @@ body {
 }
 
 .cards {
-  justify-content: space-between;
   border: solid 2px blue;
-  display: flex;
-}
-
-.card {
-  border: solid 2px red;
+  display: grid,
 }
