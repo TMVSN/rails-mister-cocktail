@@ -1,9 +1,25 @@
 // Specific CSS for your home-page
 body {
   background-color: pink;
+  background-image: url("https://image.freepik.com/free-vector/vaporwave-retro-futuristic-background-abstract-laser-grid-tunnel-neon-colors-with-glow-effect-night-sky-with-stars-wallpaper-cyberpunk-party-music-poster-hackathon-meeting_87408-169.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment:fixed;
+  background-position: center;
 }
 
-.cards {
-  border: solid 2px blue;
-  display: flex,
+@media(max-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.testbanner {
+  font-family: "Goldman";
 }

@@ -1,5 +1,26 @@
+.cards {
+  border: solid 2px white;
+  display: flex;
+  //grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin: 20px;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
   height: 200px;
   width: 200px;
-  border: solid 4px red;
+  //border: solid 4px red;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+   img{
+     height:auto;
+     width: 100%!important;
+     object-fit: cover;
+   }
 }
+
